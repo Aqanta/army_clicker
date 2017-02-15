@@ -15,5 +15,5 @@ function tick(){
 setInterval(tick(),1000);
 //function that control the screen
 function showGame(){
-    $('#screen').text("You started the game. Good Job!");
+    $('#screen').text(gameScreen);
 }
