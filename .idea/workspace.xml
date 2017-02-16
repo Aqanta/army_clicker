@@ -272,7 +272,7 @@
       <workItem from="1487109502482" duration="4549000" />
       <workItem from="1487194948909" duration="608000" />
       <workItem from="1487205471582" duration="522000" />
-      <workItem from="1487206012481" duration="20000" />
+      <workItem from="1487206012481" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="Added jQuery and updated js.js">
       <created>1487114546129</created>
@@ -323,11 +323,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487206017164</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="worked on tech tree code">
+      <created>1487206033748</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1487206033748</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8924000" />
+    <option name="totallyTimeSpent" value="8927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1576" extended-state="6" />
