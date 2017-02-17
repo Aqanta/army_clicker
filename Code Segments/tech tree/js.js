@@ -20,8 +20,8 @@ function checkTechTree(){
     }else if(!techTree[i].have){
         var c = 0;
         var d = techTree[i].preRec.length;
-        for(var j = 0; j < d;j++){
-          if(!techTree[i].preRec[j].isArray()){
+        for(var j = 0; j < techTree[i].preRec.length;j++){
+          if(!Array.isArray(techTree[i].preRec[j])){
             if(techTree[techTree[i].preRec[j]].have){
                 c++;
             }
