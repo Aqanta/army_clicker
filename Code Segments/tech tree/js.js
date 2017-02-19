@@ -26,7 +26,6 @@ function checkTechTree(){
                 c++;
             }
           }else{
-            d = d + 1;
             var e = 0;
             for(var k = 0; k < techTree[i].preRec[j].length;k++){
               if(techTree[techTree[i].preRec[j][k]].have && e == 0){
