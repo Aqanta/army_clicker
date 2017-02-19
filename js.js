@@ -2,7 +2,12 @@
  * Created by OrangeJedi on 1/18/2017.
  */
 //Variable that holds the game data
-var game = {"land" : 100};
+var game = {
+    "land" : 100,
+    "population" : {
+
+    }
+};
 //function to start the game
 function start(){
     showGame();
