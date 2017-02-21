@@ -6,6 +6,7 @@ var game = {
         "size" : 0,
         "data" : [],
         "pmd" : {}
+        "lables" : ["0-4","5-9","10-14","15-19","20-24","25-29","30-34","35-39","40-44","45-49","50-54","55-59","60-64","65-69","70-74","75-79","80-84","95-99","100-104","105+"]
     }
 };
 function start() {
@@ -19,8 +20,13 @@ function tick(){
     for(var i = 0;i < game.pop.data.length;i++){
         game.pop.data[i].age++;
         popSize += game.pop.data[i].size;
-        pmdM[Math.floor(game.pop.data[i].age / 5)] -= game.pop.data[i].male;
-        pmdF[Math.floor(game.pop.data[i].age / 5)] += game.pop.data[i].female;
+        if(game.pop.data[i].age < 100){
+            pmdM[Math.floor(game.pop.data[i].age / 5)] -= game.pop.data[i].male;
+            pmdF[Math.floor(game.pop.data[i].age / 5)] += game.pop.data[i].female;
+        }else{
+            pmdM[20] -= game.pop.data[i].male;
+            pmdF[20] += game.pop.data[i].female;
+        }
     }
 
     game.pop.size = popSize;
@@ -34,7 +40,7 @@ function printOut(){
     var mPMD = new Chart(ctxM, {
         type: 'horizontalBar',
         data: {
-            yLabels: ["0-4","5-9","10-14","15-19","20-24","25-29","30-34","35-39","40-44","45-49","50-54","55-59"],
+            yLabels: game.pop.lables,
             datasets: [{
                 data: game.pop.pmd.male,
                 backgroundColor: [
@@ -74,7 +80,7 @@ function printOut(){
     var fPMD = new Chart(ctxF, {
         type: 'horizontalBar',
         data: {
-            yLabels: ["0-4","5-9","10-14","15-19","20-24","25-29","30-34","35-39","40-44","45-49","50-54","55-59"],
+            yLabels: game.pop.lables,
             datasets: [{
                 data: game.pop.pmd.female,
                 backgroundColor: [
