@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="03583b6c-dafc-4e90-a8b4-03e15d075364" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code Segments/population simulator/css.css" afterPath="$PROJECT_DIR$/Code Segments/population simulator/css.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code Segments/population simulator/index.html" afterPath="$PROJECT_DIR$/Code Segments/population simulator/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code Segments/population simulator/popSim.js" afterPath="$PROJECT_DIR$/Code Segments/population simulator/popSim.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -78,12 +76,12 @@
       <file leaf-file-name="popSim.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Code Segments/population simulator/popSim.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="120" column="35" lean-forward="true" selection-start-line="120" selection-start-column="35" selection-end-line="120" selection-end-column="35" />
+            <state relative-caret-position="663">
+              <caret line="41" column="82" lean-forward="false" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="82" />
               <folding>
                 <element signature="e#0#46#0" expanded="false" />
-                <element signature="e#884#1946#0" expanded="false" />
-                <element signature="e#1980#3050#0" expanded="false" />
+                <element signature="e#2166#3155#0" expanded="false" />
+                <element signature="e#3189#4182#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -183,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -248,7 +247,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,7 +344,8 @@
       <workItem from="1487441922787" duration="111000" />
       <workItem from="1487468179937" duration="1398000" />
       <workItem from="1487636518308" duration="30000" />
-      <workItem from="1487644805765" duration="5314000" />
+      <workItem from="1487644805765" duration="7060000" />
+      <workItem from="1487719647582" duration="7876000" />
     </task>
     <task id="LOCAL-00001" summary="Added jQuery and updated js.js">
       <created>1487114546129</created>
@@ -460,11 +459,32 @@
       <option name="project" value="LOCAL" />
       <updated>1487645978543</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added graphs">
+      <created>1487650133601</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1487650133601</updated>
+    </task>
+    <task id="LOCAL-00018" summary="updates stuff that needed to be updated">
+      <created>1487719787046</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1487719787046</updated>
+    </task>
+    <task id="LOCAL-00019" summary="worked on death">
+      <created>1487726511823</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1487726511823</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18422000" />
+    <option name="totallyTimeSpent" value="28044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1576" extended-state="6" />
@@ -509,11 +529,14 @@
     <MESSAGE value="Added Population Simulator snippet" />
     <MESSAGE value="worked on popSim" />
     <MESSAGE value="added base and ageing code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added base and ageing code" />
+    <MESSAGE value="added graphs" />
+    <MESSAGE value="updates stuff that needed to be updated" />
+    <MESSAGE value="worked on death" />
+    <option name="LAST_COMMIT_MESSAGE" value="worked on death" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -933,12 +956,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code Segments/population simulator/popSim.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="120" column="35" lean-forward="true" selection-start-line="120" selection-start-column="35" selection-end-line="120" selection-end-column="35" />
+        <state relative-caret-position="663">
+          <caret line="41" column="82" lean-forward="false" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="82" />
           <folding>
             <element signature="e#0#46#0" expanded="false" />
-            <element signature="e#884#1946#0" expanded="false" />
-            <element signature="e#1980#3050#0" expanded="false" />
+            <element signature="e#2166#3155#0" expanded="false" />
+            <element signature="e#3189#4182#0" expanded="false" />
           </folding>
         </state>
       </provider>
