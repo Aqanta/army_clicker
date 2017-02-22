@@ -38,8 +38,8 @@ function tick(){
         }
         //kills off population
         var d = Math.floor(game.pop.data[i].size * ((game.demo.cdr / 1000) * (1 + (game.pop.data[i].age / 2))));
-        var rando = Math.floor((Math.random() * 2));
         for(var j = 0;j < d;j++) {
+            var rando = Math.floor((Math.random() * 2));
             if (rando == 1 && game.pop.data[i].male > 0) {
                 game.pop.data[i].male--;
             } else if (rando == 0 && game.pop.data[i].female > 0) {
