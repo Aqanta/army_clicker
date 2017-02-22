@@ -76,12 +76,12 @@
       <file leaf-file-name="popSim.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Code Segments/population simulator/popSim.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="41" column="82" lean-forward="false" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="82" />
+            <state relative-caret-position="401">
+              <caret line="39" column="70" lean-forward="true" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
               <folding>
                 <element signature="e#0#46#0" expanded="false" />
-                <element signature="e#2166#3155#0" expanded="false" />
-                <element signature="e#3189#4182#0" expanded="false" />
+                <element signature="e#2493#3482#0" expanded="false" />
+                <element signature="e#3516#4509#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -181,8 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,6 +245,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,7 +345,9 @@
       <workItem from="1487468179937" duration="1398000" />
       <workItem from="1487636518308" duration="30000" />
       <workItem from="1487644805765" duration="7060000" />
-      <workItem from="1487719647582" duration="7876000" />
+      <workItem from="1487719647582" duration="7915000" />
+      <workItem from="1487739689902" duration="92000" />
+      <workItem from="1487799499009" duration="1812000" />
     </task>
     <task id="LOCAL-00001" summary="Added jQuery and updated js.js">
       <created>1487114546129</created>
@@ -480,11 +482,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487726511823</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="worked on death">
+      <created>1487739532734</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1487739532734</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28044000" />
+    <option name="totallyTimeSpent" value="29987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1576" extended-state="6" />
@@ -956,12 +965,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code Segments/population simulator/popSim.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="41" column="82" lean-forward="false" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="82" />
+        <state relative-caret-position="401">
+          <caret line="39" column="70" lean-forward="true" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
           <folding>
             <element signature="e#0#46#0" expanded="false" />
-            <element signature="e#2166#3155#0" expanded="false" />
-            <element signature="e#3189#4182#0" expanded="false" />
+            <element signature="e#2493#3482#0" expanded="false" />
+            <element signature="e#3516#4509#0" expanded="false" />
           </folding>
         </state>
       </provider>
