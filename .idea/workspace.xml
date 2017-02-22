@@ -80,8 +80,8 @@
               <caret line="41" column="82" lean-forward="false" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="82" />
               <folding>
                 <element signature="e#0#46#0" expanded="false" />
-                <element signature="e#2176#3165#0" expanded="false" />
-                <element signature="e#3199#4192#0" expanded="false" />
+                <element signature="e#2166#3155#0" expanded="false" />
+                <element signature="e#3189#4182#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -345,7 +345,7 @@
       <workItem from="1487468179937" duration="1398000" />
       <workItem from="1487636518308" duration="30000" />
       <workItem from="1487644805765" duration="7060000" />
-      <workItem from="1487719647582" duration="6225000" />
+      <workItem from="1487719647582" duration="7876000" />
     </task>
     <task id="LOCAL-00001" summary="Added jQuery and updated js.js">
       <created>1487114546129</created>
@@ -473,11 +473,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487719787046</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="worked on death">
+      <created>1487726511823</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1487726511823</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26393000" />
+    <option name="totallyTimeSpent" value="28044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1576" extended-state="6" />
@@ -524,7 +531,8 @@
     <MESSAGE value="added base and ageing code" />
     <MESSAGE value="added graphs" />
     <MESSAGE value="updates stuff that needed to be updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates stuff that needed to be updated" />
+    <MESSAGE value="worked on death" />
+    <option name="LAST_COMMIT_MESSAGE" value="worked on death" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -952,8 +960,8 @@
           <caret line="41" column="82" lean-forward="false" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="82" />
           <folding>
             <element signature="e#0#46#0" expanded="false" />
-            <element signature="e#2176#3165#0" expanded="false" />
-            <element signature="e#3199#4192#0" expanded="false" />
+            <element signature="e#2166#3155#0" expanded="false" />
+            <element signature="e#3189#4182#0" expanded="false" />
           </folding>
         </state>
       </provider>

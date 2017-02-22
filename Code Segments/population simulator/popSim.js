@@ -10,13 +10,13 @@ var game = {
     },
     "demo" :{
         "cbr" : 40,
-        "cdr" : 40
+        "cdr" : 22
     }
 };
 function start() {
     //game.pop.data.push(new PopSeg(-1,100));
-    var startingPop = 100;
-    for(var i = 0;i < startingPop/4;i++){
+    var startingPop = 1000;
+    for(var i = 0;i < 34;i++){
         game.pop.data.push(new PopSeg(i, ((startingPop/5)/5)));
     }
     tick();
@@ -37,8 +37,8 @@ function tick(){
             pmdF[20] += game.pop.data[i].female;
         }
         //kills off population
-        /*game.pop.data[i].male -= Math.ceil(game.pop.data[i].size * ((game.demo.cdr / 1000) * (1 + (game.pop.data[i].age / 100))));
-        game.pop.data[i].female -= Math.ceil(game.pop.data[i].size * ((game.demo.cdr / 1000) * (1 + (game.pop.data[i].age / 100))));
+        /*game.pop.data[i].male -= Math.floor(game.pop.data[i].size * ((game.demo.cdr / 1000) * (1 + (game.pop.data[i].age / 10))));
+        game.pop.data[i].female -= Math.floor(game.pop.data[i].size * ((game.demo.cdr / 1000) * (1 + (game.pop.data[i].age / 10))));
         game.pop.data[i].size = game.pop.data[i].male + game.pop.data[i].female;*/
         //totals up population
         popSize += game.pop.data[i].size;
