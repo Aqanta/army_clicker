@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="03583b6c-dafc-4e90-a8b4-03e15d075364" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code Segments/population simulator/popSim.js" afterPath="$PROJECT_DIR$/Code Segments/population simulator/popSim.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -349,7 +348,7 @@
       <workItem from="1487739689902" duration="92000" />
       <workItem from="1487799499009" duration="1984000" />
       <workItem from="1487811319214" duration="1725000" />
-      <workItem from="1488335372960" duration="169000" />
+      <workItem from="1488335372960" duration="177000" />
     </task>
     <task id="LOCAL-00001" summary="Added jQuery and updated js.js">
       <created>1487114546129</created>
@@ -505,11 +504,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487801476892</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Worked on death">
+      <created>1488335546079</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1488335546079</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32053000" />
+    <option name="totallyTimeSpent" value="32061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1576" extended-state="6" />
