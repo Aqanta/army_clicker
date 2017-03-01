@@ -15,7 +15,7 @@ var game = {
 };
 function start() {
     //game.pop.data.push(new PopSeg(-1,100));
-    var startingPop = 10000;
+    var startingPop = 1000;
     for(var i = 0;i < 34;i++){
         game.pop.data.push(new PopSeg(i, ((startingPop/5)/5)));
     }
@@ -23,8 +23,8 @@ function start() {
 }
 function tick(){
     var popSize = 0;
-    var pmdM = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
-    var pmdF = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+    var pmdM = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+    var pmdF = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
     for(var i = 0;i < game.pop.data.length;i++){
         //ages population
         game.pop.data[i].age++;
@@ -37,13 +37,15 @@ function tick(){
             pmdF[20] += game.pop.data[i].female;
         }
         //kills off population
-        var d = Math.floor(game.pop.data[i].size * ((game.demo.cdr / 1000) * (1 + (game.pop.data[i].age / 2))));
+       var d = Math.floor(game.pop.data[i].size * ((game.demo.cdr / 1000) * (1 + (game.pop.data[i].age))));
+        var rando = Math.floor((Math.random() * 2));
         for(var j = 0;j < d;j++) {
-            var rando = Math.floor((Math.random() * 2));
             if (rando == 1 && game.pop.data[i].male > 0) {
                 game.pop.data[i].male--;
+                rando = 0;
             } else if (rando == 0 && game.pop.data[i].female > 0) {
                 game.pop.data[i].female--;
+                rando = 1;
             }
         }
         game.pop.data[i].size = game.pop.data[i].male + game.pop.data[i].female;
@@ -64,13 +66,11 @@ function tick(){
         pmdF[i] = pmdF[i] / popSize;
     }
 
-    game.pop.data.push(new PopSeg(0,Math.floor(popSize * game.demo.cbr / 1000)));
-
     game.pop.size = popSize;
     game.pop.pmd.male = pmdM.reverse();
     game.pop.pmd.female = pmdF.reverse();
     printOut();
-    setTimeout(tick,500);
+    setTimeout(tick,250);
 }
 function printOut(){
     $('#output').text(game.pop.data[0].age + "  " + game.pop.size);
@@ -215,10 +215,10 @@ function PopSeg(age,size){
 }
 function foo(){
     var total = 0;
-    for(var i = 0;i < 10000000;i++){
+    for(var i = 0;i < 10000000000;i++){
         total += Math.floor((Math.random() * 2));
     }
-    return total / 10000000;
+    return total / 100000000;
 }
 var ctxM = document.getElementById("malePMD");
 var ctxF = document.getElementById("femalePMD");
